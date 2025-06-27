@@ -1,0 +1,12 @@
+.header-nav-link {
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+}
+.card {
+	background-color: lightcoral;
+}
+.card img {
+	width: 150px;
+}
