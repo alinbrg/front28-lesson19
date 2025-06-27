@@ -90,3 +90,34 @@ navLinks[0].addEventListener("click", (event) => {
 });
 
 sectionEl.addEventListener("click", renderSectionContont);
+
+const characters = [
+	{
+		first_name: "Harry",
+		last_name: "Potter",
+		house: "Gryffindor",
+		image: "http://hp-api.herokuapp.com/images/harry.jpg",
+		actor: "Daniel Radcliffe",
+	},
+	{
+		first_name: "Hermione",
+		last_name: "Granger",
+		house: "Gryffindor",
+		image: "http://hp-api.herokuapp.com/images/hermione.jpeg",
+		actor: "Emma Watson",
+	},
+	{
+		first_name: "Ron",
+		last_name: "Weasley",
+		house: "Gryffindor",
+		image: "http://hp-api.herokuapp.com/images/ron.jpg",
+		actor: "Rupert Grint",
+	},
+	{
+		first_name: "Draco",
+		last_name: "Malfoy",
+		house: "Slytherin",
+		image: "http://hp-api.herokuapp.com/images/draco.jpg",
+		actor: "Tom Felton",
+	},
+];
